@@ -10,8 +10,8 @@
       flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
       // my edits
-      quick-tap-ms = <2000>;
-      require-prior-idle-ms = <1250>;
+      quick-tap-ms = <400>;
+      require-prior-idle-ms = <250>;
     };
     u_lt: u_lt {
       compatible = "zmk,behavior-hold-tap";
@@ -20,8 +20,8 @@
       flavor = "tap-preferred";
       bindings = <&mo>, <&kp>;
       // my edits
-      // quick-tap-ms = <200>;
-      // require-prior-idle-ms = <125>;
+      quick-tap-ms = <400>;
+      require-prior-idle-ms = <250>;
     };
   };
 };
