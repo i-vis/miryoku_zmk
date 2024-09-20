@@ -9,6 +9,9 @@
       tapping-term-ms = <U_TAPPING_TERM>;
       flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
+      // my edits
+      quick-tap-ms = <200>;
+      require-prior-idle-ms = <125>;
     };
     u_lt: u_lt {
       compatible = "zmk,behavior-hold-tap";
@@ -16,6 +19,9 @@
       tapping-term-ms = <U_TAPPING_TERM>;
       flavor = "tap-preferred";
       bindings = <&mo>, <&kp>;
+      // my edits
+      quick-tap-ms = <200>;
+      require-prior-idle-ms = <125>;
     };
   };
 };
